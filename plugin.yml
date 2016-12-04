@@ -1,0 +1,7 @@
+name: ConvenientAPI
+main: CAPI\main
+version: 1.0.2
+api: [2.0.0]
+load: POSTWORLD
+author: gigantessbeta
+description: 便利なAPIだお
