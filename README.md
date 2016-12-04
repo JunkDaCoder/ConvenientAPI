@@ -1,13 +1,14 @@
 # ConvenientAPI
-PMMPプラグイン開発初心者向けの便利API
+PMMPプラグイン開発初心者向けの便利API<br>
 
-##利用方法<br>
+
+<br>##利用方法<br>
 
 ###必ずやること <br>
 
-　作成するプラグインの
-  public function on Enable(){
-  の中に
+　作成するプラグインの<br>
+  public function on Enable(){<br>
+  の中に<br>
   $this->CAPI = $this->getServer()->getPluginManager()->getPlugin("ConvenientAPI");
   と記入してください。
 
@@ -69,7 +70,7 @@ $levelにはlevelオブジェクトを代入
 PhaveItem($player)
 
 
->>new CODE
+
  < プレイヤーにエフェクトを付与>
 PEffect($player, $effectid, $strong, $time)
 
