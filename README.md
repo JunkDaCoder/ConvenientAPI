@@ -2,14 +2,14 @@
 PMMPプラグイン開発初心者向けの便利API<br>
 
 
-<br>##利用方法<br>
+##利用方法<br>
 
 ###必ずやること <br>
 
 　作成するプラグインの<br>
   public function on Enable(){<br>
   の中に<br>
-  $this->CAPI = $this->getServer()->getPluginManager()->getPlugin("ConvenientAPI");
+<php>  $this->CAPI = $this->getServer()->getPluginManager()->getPlugin("ConvenientAPI");</php>
   と記入してください。
 
 例))
