@@ -1,0 +1,2 @@
+# ConvenientAPI
+PMMPプラグイン開発初心者向けの便利API
